@@ -18,7 +18,33 @@ public class PiDigits {
      * @param count The number of digits to return
      * @return An array containing the hexadecimal digits.
      */
-    public static byte[] getDigits(int start, int count) {
+    public static byte[] getDigits(int start, int count, int nThreads) {
+        int chunkSize = count / nThreads;
+        byte [][] results = new byte[nThreads][];
+        PiDigitsThread[] threads = new PiDigitsThread[nThreads];
+
+        for (int i = 0; i < nThreads; i++) {
+            int subStart = start + i * chunkSize;
+            int subCount = (i == nThreads - 1) ? count -i *chunkSize : chunkSize;
+            threads[i] = new PiDigitsThread(subStart, subCount);
+            threads[i].start();
+        }
+
+        for (int i = 0; i < nThreads; i++) {
+            try{
+                threads[i].join();
+                results[i] = threads[i].getresult();
+            } catch (InterruptedException e){
+                e.printStackTrace();
+            }
+        }
+
+        byte [] finalResult = new byte[count];
+        int pos = 0;
+        for (byte[] part : results) {
+            System.arraycopy(part, 0, finalResult, pos, part.length);
+            pos += part.length;
+        }
         if (start < 0) {
             throw new RuntimeException("Invalid Interval");
         }
