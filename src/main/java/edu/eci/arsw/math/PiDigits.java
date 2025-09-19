@@ -45,6 +45,10 @@ public class PiDigits {
             System.arraycopy(part, 0, finalResult, pos, part.length);
             pos += part.length;
         }
+        return finalResult;
+    }
+
+    public static byte[] getDigitsSequential(int start, int count) {
         if (start < 0) {
             throw new RuntimeException("Invalid Interval");
         }
@@ -135,5 +139,4 @@ public class PiDigits {
 
         return result;
     }
-
 }
