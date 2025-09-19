@@ -4,11 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d27437b6-38ac-42dc-be0a-948880dba6f4" name="Changes" comment="" />
+    <list default="true" id="42ee00e5-540d-4646-b204-7788facdb323" name="Changes" comment="Avance del parcial parte 1 y 2">
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/math/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/math/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/math/PauseControl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/math/PauseControl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/math/PiDigitsThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/eci/arsw/math/PiDigitsThread.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -17,9 +28,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
+  "associatedIndex": 0
 }]]></component>
-  <component name="ProjectId" id="32v1u0hiuQfoINwK08n1Kgi4pXI" />
+  <component name="ProjectId" id="32v2AWeunivyK0IXBWYqFJjxEQd" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -33,15 +44,69 @@
     "kotlin-language-version-configured": "true"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="Parcial-1-ARSW" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="Parcial-1-ARSW" />
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="d27437b6-38ac-42dc-be0a-948880dba6f4" name="Changes" comment="" />
-      <created>1758286456376</created>
+      <changelist id="42ee00e5-540d-4646-b204-7788facdb323" name="Changes" comment="" />
+      <created>1758286581574</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1758286456376</updated>
+      <updated>1758286581574</updated>
     </task>
+    <task id="LOCAL-00001" summary="inicio del parcial">
+      <option name="closed" value="true" />
+      <created>1758286747059</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1758286747059</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Avance del parcial">
+      <option name="closed" value="true" />
+      <created>1758289987152</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1758289987152</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Avance del parcial">
+      <option name="closed" value="true" />
+      <created>1758290887430</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1758290887430</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Avance del parcial parte 1 y 2">
+      <option name="closed" value="true" />
+      <created>1758291856939</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1758291856939</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="inicio del parcial" />
+    <MESSAGE value="Avance del parcial" />
+    <MESSAGE value="Avance del parcial parte 1 y 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Avance del parcial parte 1 y 2" />
   </component>
 </project>

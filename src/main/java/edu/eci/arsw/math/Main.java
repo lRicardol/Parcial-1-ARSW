@@ -5,6 +5,7 @@
  */
 package edu.eci.arsw.math;
 
+import java.io.IOException;
 import java.util.Arrays;
 
 /**
@@ -13,7 +14,17 @@ import java.util.Arrays;
  */
 public class Main {
 
-    public static void main(String a[]) {
+    public static void main(String[] args) {
+        int nThreads = 4;
+        int digitsPerThead = 50;
+        PiDigitsThread[] threads = new PiDigitsThread[nThreads];
+
+        for (int i = 0; i < nThreads; i++){
+            threads[i] = new PiDigitsThread(i * digitsPerThead, digitsPerThead);
+            threads[i].start();
+        }
+
+
         System.out.println(bytesToHex(PiDigits.getDigits(0, 10, 2)));
         System.out.println(bytesToHex(PiDigits.getDigits(1, 100, 4)));
         System.out.println(bytesToHex(PiDigits.getDigits(1, 1000000, 8)));

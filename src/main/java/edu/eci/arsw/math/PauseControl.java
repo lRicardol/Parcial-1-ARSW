@@ -20,7 +20,7 @@ public class PauseControl {
             while (paused) {
                 try {
                     lock.wait();
-                } catch (interruptedException e) {
+                } catch (interruptedException | InterruptedException e) {
                     thread.currentThead(). interrupt();
                 }
             }
